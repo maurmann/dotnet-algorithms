@@ -1,8 +1,8 @@
 ﻿namespace dotnet_algorithms
 {
-    public class BubbleSort
+    public static class BubbleSort
     {
-        public void Sort(int[] values)
+        public static void Sort(int[] values)
         {
             if (values == null || values.Length < 2)
                 return;
